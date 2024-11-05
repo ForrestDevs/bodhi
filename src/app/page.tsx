@@ -18,9 +18,9 @@ export default function Component() {
                 Spiritual Growth Through Digital Innovation
               </h2>
               <p className="text-xl sm:text-2xl text-gray-700 mb-10">
-                Welcome to the Bodhi Foundation, where ancient wisdom meets
-                modern technology in pursuit of global peace and spiritual
-                awakening.
+                Welcome to $BODHI, where blockchain technology empowers ancient wisdom,
+                creating a decentralized community dedicated to spiritual growth and
+                global consciousness.
               </p>
               <div className="mt-10 flex flex-col items-center gap-4">
                 <div className="flex flex-wrap justify-center gap-4">
@@ -59,7 +59,7 @@ export default function Component() {
                     About Us
                   </h2>
                   <p className="text-lg sm:text-xl text-gray-700 mb-8">
-                    This token is presented by the Gaden Phodrang Foundation of
+                    $BODHI is presented by the Gaden Phodrang Foundation of
                     the Dalai Lama, established in 2015 by His Holiness the 14th
                     Dalai Lama of Tibet, Tenzin Gyatso, under Article 80 and
                     following provisions of the Swiss Civil Code. Headquartered

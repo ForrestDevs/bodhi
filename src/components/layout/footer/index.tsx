@@ -48,8 +48,7 @@ export default function Footer() {
         </div>
         <div className="pt-8 border-t border-white/10 text-center">
           <p className="text-sm">
-            &copy; {new Date().getFullYear()} Bodhi Foundation. All rights
-            reserved.
+            &copy; {new Date().getFullYear()} $BODHI. All rights reserved.
           </p>
         </div>
       </div>

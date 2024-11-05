@@ -16,8 +16,17 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Bodhi Foundation",
-  description: "Bodhi Foundation",
+  title: "$BODHI",
+  description: "Awakening • Enlightenment • Peace",
+  openGraph: {
+    title: "$BODHI",
+    description: "Awakening • Enlightenment • Peace",
+    // url: "https://www.bodhifoundation.org",
+    siteName: "$BODHI",
+    locale: "en_US",
+    type: "website",
+  },
+  
 };
 
 export default function RootLayout({

@@ -49,42 +49,8 @@ export default function Home() {
           </div>
         </section>
 
-        {/* About Section */}
-        <section className="py-12 md:py-20 bg-white" id="about">
-          <div className="container mx-auto px-4">
-            <div className="max-w-6xl mx-auto">
-              <div className="grid md:grid-cols-2 gap-12 items-center">
-                <div>
-                  <h2 className="text-3xl sm:text-4xl md:text-5xl font-serif text-[#5C1919] mb-8 text-left">
-                    About Us
-                  </h2>
-                  <p className="text-lg sm:text-xl text-gray-700 mb-8">
-                    $BODHI is presented by the Gaden Phodrang Foundation of the
-                    Dalai Lama, established in 2015 by His Holiness the 14th
-                    Dalai Lama of Tibet, Tenzin Gyatso, under Article 80 and
-                    following provisions of the Swiss Civil Code. Headquartered
-                    in Zurich, Switzerland, the foundation was created to uphold
-                    and support the tradition and role of the Dalai Lama,
-                    particularly in relation to his religious and spiritual
-                    responsibilities.
-                  </p>
-                </div>
-                <div className="flex justify-center">
-                  <Image
-                    src="/b3.svg"
-                    alt="About Us"
-                    width={600}
-                    height={600}
-                    className="w-full max-w-[600px] animate-levitate"
-                  />
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-
         {/* What is Bodhi Section */}
-        <section className="py-12 md:py-20 bg-[#5C1919]/5">
+        <section className="py-12 md:py-20 bg-[#5C1919]/5" id="what-is-bodhi">
           <div className="container mx-auto px-4">
             <div className="max-w-6xl mx-auto">
               <div className="grid md:grid-cols-2 gap-12 items-center">
@@ -120,6 +86,40 @@ export default function Home() {
                     inner clarity and compassion, guiding them toward lasting
                     peace and freedom from suffering.
                   </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* About Section */}
+        <section className="py-12 md:py-20 bg-white" id="about">
+          <div className="container mx-auto px-4">
+            <div className="max-w-6xl mx-auto">
+              <div className="grid md:grid-cols-2 gap-12 items-center">
+                <div>
+                  <h2 className="text-3xl sm:text-4xl md:text-5xl font-serif text-[#5C1919] mb-8 text-left">
+                    About Us
+                  </h2>
+                  <p className="text-lg sm:text-xl text-gray-700 mb-8">
+                    $BODHI is presented by the Gaden Phodrang Foundation of the
+                    Dalai Lama, established in 2015 by His Holiness the 14th
+                    Dalai Lama of Tibet, Tenzin Gyatso, under Article 80 and
+                    following provisions of the Swiss Civil Code. Headquartered
+                    in Zurich, Switzerland, the foundation was created to uphold
+                    and support the tradition and role of the Dalai Lama,
+                    particularly in relation to his religious and spiritual
+                    responsibilities.
+                  </p>
+                </div>
+                <div className="flex justify-center">
+                  <Image
+                    src="/b3.svg"
+                    alt="About Us"
+                    width={600}
+                    height={600}
+                    className="w-full max-w-[600px] animate-levitate"
+                  />
                 </div>
               </div>
             </div>

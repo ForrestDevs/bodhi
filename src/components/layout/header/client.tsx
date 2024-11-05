@@ -21,6 +21,12 @@ export default function HeaderClient() {
                 HOME
               </Link>
               <Link
+                href="#what-is-bodhi"
+                className="font-medium hover:text-white transition-colors"
+              >
+                WHAT IS BODHI?
+              </Link>
+              <Link
                 href="#about"
                 className="font-medium hover:text-white transition-colors"
               >
@@ -63,6 +69,12 @@ export default function HeaderClient() {
                   className="py-2 font-medium hover:text-white transition-colors"
                 >
                   HOME
+                </Link>
+                <Link
+                  href="#what-is-bodhi"
+                  className="py-2 font-medium hover:text-white transition-colors"
+                >
+                  WHAT IS BODHI?
                 </Link>
                 <Link
                   href="#about"

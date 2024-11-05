@@ -13,6 +13,12 @@ export default function Footer() {
             Home
           </Link>
           <Link
+            href="#what-is-bodhi"
+            className="hover:text-[#D4AF37] transition-colors text-sm"
+          >
+            What is Bodhi?
+          </Link>
+          <Link
             href="#about"
             className="hover:text-[#D4AF37] transition-colors text-sm"
           >

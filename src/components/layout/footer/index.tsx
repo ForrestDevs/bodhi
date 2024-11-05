@@ -48,7 +48,7 @@ export default function Footer() {
             href="#"
             className="hover:text-[#D4AF37] transition-colors text-sm"
           >
-            Telegram
+            Email
           </Link>
         </div>
         <div className="pt-8 border-t border-white/10 text-center">

@@ -15,14 +15,14 @@ export default function Header() {
                 alt="Bodhi Foundation Logo"
                 width={150}
                 height={150}
-                className="w-[100px] sm:w-[150px] md:w-[175px] lg:w-[200px] h-auto"
+                className="w-[80px] sm:w-[120px] md:w-[140px] lg:w-[160px] h-auto"
               />
             </Link>
             <div className="mt-4 md:mt-0 text-center md:flex-1">
-              <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-serif tracking-wide">
+              <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-serif tracking-wide">
                 $BODHI
               </h1>
-              <p className="mt-1 sm:mt-2 text-base sm:text-lg font-light">
+              <p className="mt-1 sm:mt-2 text-xl sm:text-2xl md:text-3xl font-light">
                 Awakening • Enlightenment • Peace
               </p>
             </div>

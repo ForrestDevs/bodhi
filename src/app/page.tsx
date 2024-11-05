@@ -1,15 +1,16 @@
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
-export default function Component() {
-  // const [isMenuOpen, setIsMenuOpen] = useState(false);
+import { cn } from "@/lib/utils";
+import { buttonVariants } from "@/components/ui/button";
 
+export default function Component() {
   return (
     <div className="flex flex-col min-h-screen bg-white">
       {/* Main Content */}
       <main className="flex-1">
         {/* Hero Section */}
-        <section className="bg-[#5C1919]/5 py-16 md:py-24">
+        <section className="bg-[#5C1919]/5 py-16 md:py-24" id="home">
           <div className="container mx-auto px-4">
             <div className="max-w-3xl mx-auto text-center">
               <h2 className="text-3xl md:text-4xl font-serif text-[#5C1919] mb-6">
@@ -20,25 +21,31 @@ export default function Component() {
                 modern technology in pursuit of global peace and spiritual
                 awakening.
               </p>
-              <Button className="bg-[#D4AF37] text-[#5C1919] hover:bg-[#5C1919] hover:text-white transition-colors">
-                Learn More
-              </Button>
               <div className="mt-8 flex justify-center space-x-4">
                 <Link
                   href="#"
-                  className="text-[#5C1919] hover:text-[#D4AF37] transition-colors"
+                  className={cn(
+                    buttonVariants({ variant: "ghost" }),
+                    "bg-[#D4AF37] text-[#5C1919] hover:bg-[#5C1919] hover:text-white"
+                  )}
                 >
                   DexScanner
                 </Link>
                 <Link
                   href="#"
-                  className="text-[#5C1919] hover:text-[#D4AF37] transition-colors"
+                  className={cn(
+                    buttonVariants({ variant: "ghost" }),
+                    "bg-[#5C1919] text-[#D4AF37] hover:bg-[#D4AF37] hover:text-[#5C1919]"
+                  )}
                 >
                   Discord
                 </Link>
                 <Link
                   href="#"
-                  className="text-[#5C1919] hover:text-[#D4AF37] transition-colors"
+                  className={cn(
+                    buttonVariants({ variant: "ghost" }),
+                    "bg-[#D4AF37] text-[#5C1919] hover:bg-[#5C1919] hover:text-white"
+                  )}
                 >
                   Telegram
                 </Link>
@@ -48,7 +55,7 @@ export default function Component() {
         </section>
 
         {/* About Section */}
-        <section className="py-16 bg-white">
+        <section className="py-16 bg-white" id="about">
           <div className="container mx-auto px-4">
             <div className="max-w-5xl mx-auto">
               <div className="grid md:grid-cols-2 gap-8 items-center">
@@ -81,7 +88,7 @@ export default function Component() {
         </section>
 
         {/* Vision Section */}
-        <section className="py-16 bg-[#5C1919]/5">
+        <section className="py-16 bg-[#5C1919]/5" id="vision">
           <div className="container mx-auto px-4">
             <div className="max-w-3xl mx-auto">
               <h2 className="text-2xl md:text-3xl font-serif text-[#5C1919] mb-6 text-center">
@@ -120,7 +127,7 @@ export default function Component() {
         </section>
 
         {/* End Goal Section */}
-        <section className="py-16 bg-white">
+        <section className="py-16 bg-white" id="end-goal">
           <div className="container mx-auto px-4">
             <div className="max-w-3xl mx-auto text-center">
               <h2 className="text-2xl md:text-3xl font-serif text-[#5C1919] mb-6">

@@ -1,5 +1,6 @@
 import Link from "next/link";
 import React from "react";
+import ContractAddress from "../contract-address";
 
 export default function Footer() {
   return (
@@ -32,12 +33,6 @@ export default function Footer() {
           </Link>
         </div>
         <div className="flex justify-center space-x-4 mb-8">
-          <Link
-            href="#"
-            className="hover:text-[#D4AF37] transition-colors text-sm"
-          >
-            DexScanner
-          </Link>
           <Link
             href="#"
             className="hover:text-[#D4AF37] transition-colors text-sm"

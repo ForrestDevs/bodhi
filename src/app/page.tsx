@@ -3,6 +3,7 @@ import { Button } from "@/components/ui/button";
 import Image from "next/image";
 import { cn } from "@/lib/utils";
 import { buttonVariants } from "@/components/ui/button";
+import ContractAddress from "@/components/layout/contract-address";
 
 export default function Component() {
   return (
@@ -21,34 +22,28 @@ export default function Component() {
                 modern technology in pursuit of global peace and spiritual
                 awakening.
               </p>
-              <div className="mt-10 flex flex-wrap justify-center gap-4">
-                <Link
-                  href="#"
-                  className={cn(
-                    buttonVariants({ variant: "ghost", size: "lg" }),
-                    "bg-[#D4AF37] text-[#5C1919] hover:bg-[#5C1919] hover:text-white text-lg"
-                  )}
-                >
-                  DexScanner
-                </Link>
-                <Link
-                  href="#"
-                  className={cn(
-                    buttonVariants({ variant: "ghost", size: "lg" }),
-                    "bg-[#5C1919] text-[#D4AF37] hover:bg-[#D4AF37] hover:text-[#5C1919] text-lg"
-                  )}
-                >
-                  Discord
-                </Link>
-                <Link
-                  href="#"
-                  className={cn(
-                    buttonVariants({ variant: "ghost", size: "lg" }),
-                    "bg-[#D4AF37] text-[#5C1919] hover:bg-[#5C1919] hover:text-white text-lg"
-                  )}
-                >
-                  Email
-                </Link>
+              <div className="mt-10 flex flex-col items-center gap-4">
+                <div className="flex flex-wrap justify-center gap-4">
+                  <Link
+                    href="#"
+                    className={cn(
+                      buttonVariants({ variant: "ghost", size: "lg" }),
+                      "bg-[#5C1919] text-[#D4AF37] hover:bg-[#D4AF37] hover:text-[#5C1919] text-lg"
+                    )}
+                  >
+                    Discord
+                  </Link>
+                  <Link
+                    href="#"
+                    className={cn(
+                      buttonVariants({ variant: "ghost", size: "lg" }),
+                      "bg-[#D4AF37] text-[#5C1919] hover:bg-[#5C1919] hover:text-white text-lg"
+                    )}
+                  >
+                    Email
+                  </Link>
+                </div>
+                <ContractAddress />
               </div>
             </div>
           </div>
@@ -107,19 +102,23 @@ export default function Component() {
                     What is Bodhi?
                   </h2>
                   <p className="text-lg sm:text-xl text-gray-700">
-                    In Buddhism, &ldquo;Bodhi&rdquo; represents awakening and
-                    enlightenment - a profound understanding of reality&rsquo;s
-                    true nature. Just as the Buddha achieved enlightenment under
-                    the Bodhi tree, transcending ignorance and overcoming
-                    attachment, our foundation seeks to guide others on this
-                    transformative path. This token is presented by the Gaden
-                    Phodrang Foundation of the Dalai Lama, established in 2015
-                    by His Holiness the 14th Dalai Lama of Tibet, Tenzin Gyatso,
-                    under Article 80 and following provisions of the Swiss Civil
-                    Code. Headquartered in Zurich, Switzerland, the foundation
-                    was created to uphold and support the tradition and role of
-                    the Dalai Lama, particularly in relation to his religious
-                    and spiritual responsibilities.
+                    In Buddhism, &ldquo;Bodhi&rdquo; means
+                    &ldquo;awakening&rdquo; or &ldquo;enlightenment.&rdquo; It
+                    signifies a profound insight into the true nature of
+                    reality, achieved by transcending ignorance and detaching
+                    from suffering.
+                  </p>
+                  <p className="text-lg sm:text-xl text-gray-700 mt-4">
+                    Bodhi is the ultimate goal of Buddhist practice—a state of
+                    wisdom and compassion that frees an individual from the
+                    cycle of samsara (birth, death, and rebirth).
+                  </p>
+                  <p className="text-lg sm:text-xl text-gray-700 mt-4">
+                    The concept is rooted in the Buddha&rsquo;s journey to
+                    enlightenment under the Bodhi tree, where he realized the
+                    path to liberation. Bodhi inspires Buddhists to cultivate
+                    inner clarity and compassion, guiding them toward lasting
+                    peace and freedom from suffering.
                   </p>
                 </div>
               </div>

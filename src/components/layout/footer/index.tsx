@@ -1,6 +1,5 @@
 import Link from "next/link";
 import React from "react";
-import ContractAddress from "../contract-address";
 
 export default function Footer() {
   return (

@@ -31,7 +31,7 @@ export default function Home() {
                       "bg-[#5C1919] text-[#D4AF37] hover:bg-[#D4AF37] hover:text-[#5C1919] text-lg"
                     )}
                   >
-                    Discord
+                    Twitter
                   </Link>
                   <Link
                     href="#"

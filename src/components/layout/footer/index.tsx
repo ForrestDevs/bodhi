@@ -36,7 +36,7 @@ export default function Footer() {
             href="#"
             className="hover:text-[#D4AF37] transition-colors text-sm"
           >
-            Discord
+            Twitter
           </Link>
           <Link
             href="#"

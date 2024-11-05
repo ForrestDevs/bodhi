@@ -15,25 +15,25 @@ export default function HeaderClient() {
           <div className="flex justify-center items-center">
             <div className="hidden md:flex space-x-8 py-4">
               <Link
-                href="/"
+                href="#home"
                 className="font-medium hover:text-white transition-colors"
               >
                 HOME
               </Link>
               <Link
-                href="/about"
+                href="#about"
                 className="font-medium hover:text-white transition-colors"
               >
                 ABOUT US
               </Link>
               <Link
-                href="/vision"
+                href="#vision"
                 className="font-medium hover:text-white transition-colors"
               >
                 THE VISION
               </Link>
               <Link
-                href="/goal"
+                href="#end-goal"
                 className="font-medium hover:text-white transition-colors"
               >
                 THE END GOAL

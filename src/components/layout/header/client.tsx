@@ -59,25 +59,25 @@ export default function HeaderClient() {
             <div className="container mx-auto px-4 py-2">
               <div className="flex flex-col space-y-2">
                 <Link
-                  href="/"
+                  href="#home"
                   className="py-2 font-medium hover:text-white transition-colors"
                 >
                   HOME
                 </Link>
                 <Link
-                  href="/about"
+                  href="#about"
                   className="py-2 font-medium hover:text-white transition-colors"
                 >
                   ABOUT US
                 </Link>
                 <Link
-                  href="/vision"
+                  href="#vision"
                   className="py-2 font-medium hover:text-white transition-colors"
                 >
                   THE VISION
                 </Link>
                 <Link
-                  href="/goal"
+                  href="#end-goal"
                   className="py-2 font-medium hover:text-white transition-colors"
                 >
                   THE END GOAL

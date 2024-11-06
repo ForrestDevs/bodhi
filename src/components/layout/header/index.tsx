@@ -20,7 +20,7 @@ export default function Header() {
             </Link>
             <div className="mt-4 md:mt-0 text-center md:flex-1">
               <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-serif tracking-wide">
-                $BODHI
+                Bodhi Mission
               </h1>
               <p className="mt-1 sm:mt-2 text-xl sm:text-2xl md:text-3xl font-light">
                 Awakening • Enlightenment • Peace

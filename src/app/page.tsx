@@ -18,14 +18,14 @@ export default function Home() {
                 Spiritual Growth Through Digital Innovation
               </h2>
               <p className="text-xl sm:text-2xl text-gray-700 mb-10">
-                Welcome to $BODHI, where blockchain technology empowers ancient
-                wisdom, creating a decentralized community dedicated to
-                spiritual growth and global consciousness.
+                Welcome to the Bodhi Mission, where blockchain technology
+                empowers ancient wisdom, creating a decentralized community
+                dedicated to spiritual growth and global consciousness.
               </p>
               <div className="mt-10 flex flex-col items-center gap-4">
                 <div className="flex flex-wrap justify-center gap-4">
                   <Link
-                    href="#"
+                    href="https://x.com/BodhiMission"
                     className={cn(
                       buttonVariants({ variant: "ghost", size: "lg" }),
                       "bg-[#5C1919] text-[#D4AF37] hover:bg-[#D4AF37] hover:text-[#5C1919] text-lg"
@@ -34,7 +34,7 @@ export default function Home() {
                     Twitter
                   </Link>
                   <Link
-                    href="#"
+                    href="mailto:gp-foundation@dalailama.com"
                     className={cn(
                       buttonVariants({ variant: "ghost", size: "lg" }),
                       "bg-[#D4AF37] text-[#5C1919] hover:bg-[#5C1919] hover:text-white text-lg"
@@ -182,9 +182,17 @@ export default function Home() {
                 every individual has the opportunity to transcend ignorance,
                 overcome attachment, and contribute to global peace.
               </p>
-              <Button className="bg-[#D4AF37] text-[#5C1919] hover:bg-[#5C1919] hover:text-white transition-colors text-lg py-6 px-8">
-                Join Our Mission
-              </Button>
+              <div className="flex justify-center">
+                <Link
+                  href="mailto:gp-foundation@dalailama.com"
+                  className={cn(
+                    buttonVariants({ variant: "default", size: "lg" }),
+                    "flex items-center w-fit bg-[#D4AF37] text-[#5C1919] hover:bg-[#5C1919] hover:text-white transition-colors text-lg px-8 rounded-md text-center"
+                  )}
+                >
+                  Join Our Mission
+                </Link>
+              </div>
             </div>
           </div>
         </section>

@@ -39,13 +39,13 @@ export default function Footer() {
         </div>
         <div className="flex justify-center space-x-4 mb-8">
           <Link
-            href="#"
+            href="https://x.com/BodhiMission"
             className="hover:text-[#D4AF37] transition-colors text-sm"
           >
             Twitter
           </Link>
           <Link
-            href="#"
+            href="mailto:gp-foundation@dalailama.com"
             className="hover:text-[#D4AF37] transition-colors text-sm"
           >
             Email
@@ -53,7 +53,7 @@ export default function Footer() {
         </div>
         <div className="pt-8 border-t border-white/10 text-center">
           <p className="text-sm">
-            &copy; {new Date().getFullYear()} $BODHI. All rights reserved.
+            &copy; {new Date().getFullYear()} Bodhi Mission. All rights reserved.
           </p>
         </div>
       </div>

@@ -21,7 +21,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "$BODHI",
     description: "Awakening • Enlightenment • Peace",
-    // url: "https://www.bodhifoundation.org",
+    url: "https://www.bodhimission.org",
     siteName: "$BODHI",
     locale: "en_US",
     type: "website",

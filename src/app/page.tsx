@@ -183,7 +183,7 @@ export default function Home() {
               </p>
               <div className="flex justify-center">
                 <Link
-                  href="mailto:gp-foundation@dalailama.com"
+                  href="https://dexscreener.com/solana/FqmSqGpyMkg9ruU6CCzfVC1W5gwbCdhWG4AgH5xZpump"
                   className={cn(
                     buttonVariants({ variant: "default", size: "lg" }),
                     "flex items-center w-fit bg-[#D4AF37] text-[#5C1919] hover:bg-[#5C1919] hover:text-white transition-colors text-lg px-8 rounded-md text-center"

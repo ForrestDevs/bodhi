@@ -6,7 +6,7 @@ import { Button } from "@/components/ui/button";
 
 export default function ContractAddress() {
   const [isCopied, setIsCopied] = useState(false);
-  const contractAddress = "0x1234567890123456789012345678901234567890"; // Fake contract address
+  const contractAddress = "FqmSqGpyMkg9ruU6CCzfVC1W5gwbCdhWG4AgH5xZpump"; // Fake contract address
 
   const copyToClipboard = () => {
     navigator.clipboard.writeText(contractAddress).then(() => {
